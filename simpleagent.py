@@ -13,7 +13,7 @@ os.environ["GROQ_API_KEY"]=os.getenv("GROQ_API_KEY")
 
 agent=Agent(
     model=Groq(id="qwen-2.5-32b"),
-    description="You are an assistant please reply based ont he question",
+    description="You are an assistant please reply based on the question",
     tools=[DuckDuckGoTools()],
     markdown=True
 )
