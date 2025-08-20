@@ -47,6 +47,22 @@ knowledge_base = PDFURLKnowledgeBase(
     )
 )
 
+# can have multiple urls
+#knowledge_base = PDFURLKnowledgeBase(
+#   urls=[
+#       "https://phi-public.s3.amazonaws.com/recipes/thai_recipes.pdf",
+#      "https://phi-public.s3.amazonaws.com/recipes/italian_recipes.pdf",
+#     "https://phi-public.s3.amazonaws.com/recipes/mexican_recipes.pdf"
+#  ],
+#  vector_db=PGVector2(
+#      collection_name="recipes",
+#      db_url=DB_URL
+#   )
+#)
+
+
+
+
 knowledge_base.load(
     storage=PGAssistantStorage(
         table_name="pdf_assistant",
