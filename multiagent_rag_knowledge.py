@@ -12,6 +12,11 @@
 # Provide accurate responses based on the document content
 
 # requirements.txt
+duckduckgo-search
+fastapi
+uvcorn
+gorq
+openai
 sqlalchemy
 pgvector
 psycopg2-binary
