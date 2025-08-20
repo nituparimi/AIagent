@@ -103,3 +103,4 @@ if __name__ == "__main__":
 
 #This project demonstrates how to build a sophisticated AI assistant that can interact with vector databases and process PDF documents. 
 #It showcases the power of combining multiple tools and technologies to create complex workflows that solve real-world problems.
+# https://www.krishnaik.in/blog/2-Building%20Multi%20Agentic%20AI%20RAG%20With%20Vector%20Database
